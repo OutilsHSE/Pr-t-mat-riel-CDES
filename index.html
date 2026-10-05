@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prêt de matériel — CDES</title>
+<meta name="description" content="Convention de mise à disposition et fiche de prêt de matériel pour les conducteurs extérieurs — CDES">
+<meta name="theme-color" content="#002F43">
+<link rel="stylesheet" href="css/pret.css">
+</head>
+<body>
+
+</head>
+<body>
+
+<header class="top">
+  <div class="marque">
+    <img id="logo" alt="CDES">
+    <div>
+      <b>Prêt de matériel</b>
+      <span>Conducteurs extérieurs — CDES</span>
+    </div>
+  </div>
+  <div class="droite">
+    <span id="etatSync" class="pastilleEtat"><i></i>—</span>
+    <button id="btnSync" class="b pt" type="button" title="Forcer la synchronisation">⟳</button>
+    <button id="btnReglages" class="b pt" type="button">⚙ Réglages</button>
+    <button id="btnNouveau" class="b p" type="button">+ Nouveau prêt</button>
+  </div>
+</header>
+
+<main>
+  <aside class="panneau">
+    <input id="recherche" class="recherche" type="search" placeholder="Rechercher un prêt…" autocomplete="off">
+    <div id="liste"></div>
+  </aside>
+
+  <section class="panneau">
+    <nav id="etapes" class="etapes"></nav>
+    <div id="contenu" class="corps"></div>
+    <div id="barre" class="barre"></div>
+  </section>
+</main>
+
+<dialog id="modale">
+  <div class="tete"><span id="modaleTitre"></span>
+    <button id="modaleFermer" class="b pt" type="button" style="margin-left:auto">✕</button></div>
+  <div id="modaleCorps" class="in"></div>
+  <div id="modalePied" class="pied"></div>
+</dialog>
+
+<script src="js/pdf-ressources.js"></script>
+<script src="js/pdf.js"></script>
+<script src="js/pret.js"></script>
+</body>
+</html>

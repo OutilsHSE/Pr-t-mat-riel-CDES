@@ -1,0 +1,266 @@
+{
+  "_info": "Listes NON sensibles de l’outil Prêt de matériel (engins, CACES, points de l’état des lieux, règles du conducteur). Aucune donnée personnelle ici : les noms et coordonnées sont dans le Référentiel CDES, servis par le serveur.",
+  "version": "2026-10-05",
+  "engins": [
+    {
+      "fam": "Pelles",
+      "d": "Pelle hydraulique sur chenilles",
+      "caces": "R.482 B1"
+    },
+    {
+      "fam": "Pelles",
+      "d": "Pelle hydraulique sur pneus",
+      "caces": "R.482 B1"
+    },
+    {
+      "fam": "Pelles",
+      "d": "Pelle amphibie",
+      "caces": "R.482 B1"
+    },
+    {
+      "fam": "Pelles",
+      "d": "Mini-pelle (< 6 t)",
+      "caces": "R.482 A"
+    },
+    {
+      "fam": "Transport",
+      "d": "Tombereau",
+      "caces": "R.482 E"
+    },
+    {
+      "fam": "Manutention",
+      "d": "Chariot élévateur",
+      "caces": "R.489 3"
+    },
+    {
+      "fam": "Fluvial",
+      "d": "Faucardeur",
+      "caces": "—"
+    },
+    {
+      "fam": "Fluvial",
+      "d": "Pousseur fluvial ou maritime",
+      "caces": "—"
+    }
+  ],
+  "caces": [
+    {
+      "r": "R.482",
+      "t": "Engins de chantier",
+      "cats": [
+        [
+          "A",
+          "Engins compacts"
+        ],
+        [
+          "B1",
+          "Engins d'extraction à déplacement séquentiel (pelles)"
+        ],
+        [
+          "B2",
+          "Engins d'extraction à déplacement alternatif"
+        ],
+        [
+          "B3",
+          "Engins de forage"
+        ],
+        [
+          "C1",
+          "Engins de chargement à déplacement alternatif"
+        ],
+        [
+          "C2",
+          "Engins de réglage"
+        ],
+        [
+          "C3",
+          "Engins de nivellement"
+        ],
+        [
+          "D",
+          "Engins de compactage"
+        ],
+        [
+          "E",
+          "Engins de transport"
+        ],
+        [
+          "F",
+          "Chariots de manutention tout-terrain"
+        ],
+        [
+          "G",
+          "Conduite hors production (porte-engin, essais)"
+        ]
+      ]
+    },
+    {
+      "r": "R.489",
+      "t": "Chariots de manutention à conducteur porté",
+      "cats": [
+        [
+          "1A",
+          "Transpalette à conducteur porté"
+        ],
+        [
+          "1B",
+          "Gerbeur à conducteur porté"
+        ],
+        [
+          "2A",
+          "Chariot à plateau porteur"
+        ],
+        [
+          "2B",
+          "Chariot tracteur"
+        ],
+        [
+          "3",
+          "Chariot élévateur frontal ≤ 6 t"
+        ],
+        [
+          "4",
+          "Chariot élévateur frontal > 6 t"
+        ],
+        [
+          "5",
+          "Chariot élévateur à mât rétractable"
+        ],
+        [
+          "6",
+          "Conduite hors production"
+        ]
+      ]
+    },
+    {
+      "r": "R.486",
+      "t": "Plates-formes élévatrices mobiles de personnes",
+      "cats": [
+        [
+          "A",
+          "PEMP de type A"
+        ],
+        [
+          "B",
+          "PEMP de type B"
+        ],
+        [
+          "C",
+          "Conduite hors production"
+        ]
+      ]
+    },
+    {
+      "r": "R.490",
+      "t": "Grues de chargement",
+      "cats": [
+        [
+          "—",
+          "Sans télécommande"
+        ],
+        [
+          "TC",
+          "Avec télécommande"
+        ]
+      ]
+    },
+    {
+      "r": "R.483",
+      "t": "Grues mobiles",
+      "cats": [
+        [
+          "A",
+          "Flèche treillis"
+        ],
+        [
+          "B",
+          "Flèche télescopique"
+        ]
+      ]
+    }
+  ],
+  "controles": [
+    {
+      "g": "Sécurité",
+      "l": "Dispositif d'arrêt d'urgence et coupe-batterie"
+    },
+    {
+      "g": "Sécurité",
+      "l": "Avertisseur sonore, alarme de recul, gyrophare"
+    },
+    {
+      "g": "Sécurité",
+      "l": "Ceinture de sécurité et structure de protection (ROPS / FOPS)"
+    },
+    {
+      "g": "Sécurité",
+      "l": "Extincteur en place, plombé et en cours de validité"
+    },
+    {
+      "g": "Sécurité",
+      "l": "Protecteurs, carters et capots verrouillés"
+    },
+    {
+      "g": "Visibilité",
+      "l": "Vitrage, essuie-glaces, rétroviseurs, caméra de recul"
+    },
+    {
+      "g": "Visibilité",
+      "l": "Éclairage et feux de travail"
+    },
+    {
+      "g": "Mécanique",
+      "l": "Niveaux : moteur, hydraulique, refroidissement"
+    },
+    {
+      "g": "Mécanique",
+      "l": "Flexibles et raccords — absence de fuite"
+    },
+    {
+      "g": "Mécanique",
+      "l": "Chenilles ou pneumatiques, état et tension"
+    },
+    {
+      "g": "Mécanique",
+      "l": "Équipement, attache rapide et verrouillage"
+    },
+    {
+      "g": "Mécanique",
+      "l": "Vérins, articulations et graissage"
+    },
+    {
+      "g": "État général",
+      "l": "Carrosserie, cabine, marchepieds et mains courantes"
+    },
+    {
+      "g": "État général",
+      "l": "Propreté générale et absence de fuite au sol"
+    },
+    {
+      "g": "Documents",
+      "l": "VGP"
+    }
+  ],
+  "regles": [
+    "Je n'utilise l'engin que pour l'activité et sur le périmètre prévus par la convention.",
+    "Je ne confie l'engin à personne d'autre, même ponctuellement.",
+    "Je réalise le tour de l'engin et les contrôles de prise de poste avant chaque utilisation.",
+    "J'arrête immédiatement l'engin et je préviens CDES dès qu'une anomalie touche la sécurité.",
+    "Je ne neutralise aucun dispositif de sécurité et je porte ma ceinture.",
+    "Je respecte les charges, les pentes et les distances de sécurité, notamment aux réseaux aériens.",
+    "Je consigne l'engin et je retire la clé à chaque interruption de travail.",
+    "Je signale tout incident, presque-accident ou dégât, même sans conséquence apparente."
+  ],
+  "niveaux": [
+    "Vide",
+    "1/4",
+    "1/2",
+    "3/4",
+    "Plein"
+  ],
+  "etats": [
+    "Conforme",
+    "Anomalie",
+    "Sans objet"
+  ]
+}
