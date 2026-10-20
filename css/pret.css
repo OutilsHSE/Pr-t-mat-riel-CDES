@@ -233,3 +233,22 @@ dialog .pied{padding:12px 18px;border-top:1px solid var(--bord);display:flex;gap
 .jalon.attente .pt{background:var(--ambre)}
 .avancement .suite{margin-top:11px;font-size:13px;color:var(--texte);line-height:1.45}
 .etape em{font-style:normal;font-weight:400;opacity:.7;font-size:11.5px}
+
+/* ===== Téléphone et tablette (20/10/2026) : une colonne qui tient dans l'écran ===== */
+@media (max-width:900px){
+  main{grid-template-columns:minmax(0,1fr)}
+  main>*{min-width:0}
+  .etapes{overflow-x:auto;-webkit-overflow-scrolling:touch}
+}
+/* ===== Téléphone (20/10/2026) : l'en-tête sur deux lignes, rien ne se chevauche ===== */
+@media (max-width:600px){
+  .top{flex-wrap:wrap;gap:8px;padding:8px 12px}
+  .marque{flex:1 1 100%}
+  .marque img{height:28px}
+  .top .droite{margin-left:0;width:100%;flex-wrap:nowrap;gap:6px}
+  .top .droite .pastilleEtat{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .top .droite .b{flex-shrink:0;white-space:nowrap}
+  .barre{padding:9px 10px calc(9px + env(safe-area-inset-bottom,0px));gap:7px}
+  .barre .b{flex:1 1 auto}
+  .barre .esp{margin-left:0}
+}
