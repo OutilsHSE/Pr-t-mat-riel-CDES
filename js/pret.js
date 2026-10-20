@@ -10,7 +10,7 @@
 const CONFIG = {
   WEBHOOK_URL: ''   // laisser vide
 };
-const VERSION_PAGE = 'V2.1 — 05/10/2026';
+const VERSION_PAGE = 'V2.2 — 20/10/2026';   // V2.2 : affichage téléphone (en-tête sur deux lignes, formulaire dans la largeur de l'écran)
 
 /* ===========================================================================
    Catalogues et valeurs de reference. Tout est modifiable dans l'appli :
